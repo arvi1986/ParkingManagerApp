@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         Button loginBtn = findViewById(R.id.btnLogin);
+        Button bookBtn = findViewById(R.id.btnBook);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -36,11 +37,17 @@ public class MainActivity extends AppCompatActivity {
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
                                        @Override
-                                       public void onClick(View view) {
-                                          moveToLoginPage();
+                                       public void onClick(View view) {moveToLoginPage();
                                        }
-                                   }
-        );
+                                   });
+
+        bookBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
 
     }
 

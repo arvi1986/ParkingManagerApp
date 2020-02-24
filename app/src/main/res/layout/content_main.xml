@@ -11,73 +11,54 @@
 
     <Button
         android:id="@+id/btnBook"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="30dp"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
         android:background="@color/BlanchedAlmond"
         android:text="Book a Parking"
-        app:layout_constraintBottom_toTopOf="@+id/btnRent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="110dp" />
 
     <Button
         android:id="@+id/btnRent"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="30dp"
+        android:layout_width="347dp"
+        android:layout_height="48dp"
         android:background="@color/BlanchedAlmond"
         android:text="Rent your Space"
-        app:layout_constraintBottom_toTopOf="@+id/btnShowRented"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBook" />
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="212dp" />
 
     <Button
         android:id="@+id/btnShowRented"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="44dp"
+        android:layout_width="347dp"
+        android:layout_height="48dp"
         android:background="@color/BlanchedAlmond"
         android:text="My Space Reservations"
-        app:layout_constraintBottom_toTopOf="@+id/btnShowReservartions"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRent" />
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="324dp" />
 
     <Button
         android:id="@+id/btnShowReservartions"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="347dp"
+        android:layout_height="48dp"
         android:background="@color/BlanchedAlmond"
         android:text="My Reservations"
-        app:layout_constraintBottom_toTopOf="@+id/btnShowProfile"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnShowRented" />
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="427dp" />
 
     <Button
         android:id="@+id/btnShowProfile"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="270dp"
+        android:layout_width="347dp"
+        android:layout_height="48dp"
         android:background="@color/BlanchedAlmond"
         android:text="Profile"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnShowReservartions" />
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
 </android.support.constraint.ConstraintLayout>
